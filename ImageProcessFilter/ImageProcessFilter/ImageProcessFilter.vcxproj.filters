@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Filter">
+      <UniqueIdentifier>{d54c87d3-dc90-47d5-9f4e-b603c47917e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FilerHelper">
+      <UniqueIdentifier>{c5ddb71c-0857-43f5-b300-93be881e1878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageProcessFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blackWhiteFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="brickFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="brightContrastFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="FrostedGlassFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="myBoxFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="fastIntegralMean.cpp">
+      <Filter>源文件\FilerHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="NV21toRGB.cpp">
+      <Filter>源文件\FilerHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBtoYUV.cpp">
+      <Filter>源文件\FilerHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="MosaicFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="HighPassFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="CameoFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeDetectionFilter.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="skinAdjust.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="skinColorAdjust.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="skinRedOrWhite.cpp">
+      <Filter>源文件\Filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
